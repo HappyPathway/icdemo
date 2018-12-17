@@ -3,7 +3,6 @@
 data "terraform_remote_state" "awsdemo_darnold_tfe_network" {
   backend = "atlas"
   config {
-    address = "app.terraform.io"
     name    = "AWSDemoDarnoldTFE/Network"
   }
 }
